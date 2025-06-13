@@ -1,4 +1,3 @@
-import { useChat } from './ChatContext';
 
 interface ChatMessageProps {
   message: string;

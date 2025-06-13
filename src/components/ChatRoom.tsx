@@ -5,7 +5,7 @@ import { UserList } from './UserList';
 import { ChatInput } from './ChatInput';
 
 export function ChatRoom() {
-  const { messages, socket, activeUsers, currentUser } = useChat();
+  const { messages, activeUsers, currentUser } = useChat();
   const [selectedUser, setSelectedUser] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
